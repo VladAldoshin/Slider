@@ -39,7 +39,7 @@
   }
   
   .card > .row {
-    color: white;
+    color: red;
     display: flex;
     flex-wrap: nowrap;
   }
@@ -48,7 +48,7 @@
     align-items: center;
     background: #223;
     border-radius: 50%;
-    color: white;
+    color: red;
     display: flex;
     justify-content: center;
     margin: 15px;
@@ -91,17 +91,20 @@
   }
   
   .card[for="c1"] {
-    background-image: url('../img/bmw-m-series-x6-m-sp-desktop.jpg.asset.1675124100814.jpg');
+    background-image: url('../img/bmw_x6.jpg');
   }
   
   .card[for="c2"] {
-    background-image: url('../img/bmw_x6__519189828fx.jpg');
+    background-image: url('../img/audi_r8.jpg');
   }
   
   .card[for="c3"] {
-    background-image: url('../img/image.jpg');
+    background-image: url('../img/bmw_i8.jpg');
   }
   
+  .card[for="c4"] {
+    background-image: url('../img/Lamborghini_Urus.jpg');
+  }
 
   
   
